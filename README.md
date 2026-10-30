@@ -74,8 +74,7 @@ Because broadcast frames do not cross VLAN networks natively, a **DHCP Relay Age
 2. The agent is bound to interfaces: **VLAN10**, **VLAN20**, and **VLAN40**.
 3. When a client boots, the router intercepts the broadcast, injects the corresponding gateway IP (GiADDR), and relays a unicast packet to DC01.
 
-> **[PLACE SCREENSHOT HERE: Router RRAS showing DHCP Relay Agent properties and bound interfaces]**
-> *Filename recommendation: `images/05-dhcp-relay.png`*
+![DHCP relay](images/images05-dhcp-relay.PNG)
 
 ---
 
