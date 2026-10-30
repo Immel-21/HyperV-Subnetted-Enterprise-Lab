@@ -58,7 +58,7 @@ Routing and Remote Access Services (RRAS) are deployed on the router VM to bridg
 * **Static IP Address:** `192.168.1.130`
 * **Subnet Mask:** `255.255.255.192`
 * **Default Gateway:** `192.168.1.129`
-* **DNS Resolution:** Local loopback (`127.0.0.1`) configured with public DNS forwarders (`8.8.8.8`) to handle out-of-network requests safely.
+* **DNS Resolution:** Local loopback (`192.168.1.130`) configured with public DNS forwarders (`8.8.8.8`) to handle out-of-network requests safely.
 
 #### DHCP Scopes Configuration
 4 distinct scopes are engineered inside the DHCP Manager matching our design.
