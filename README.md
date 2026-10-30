@@ -90,8 +90,7 @@ An enterprise File Server and client workstations are introduced into the enviro
 #### Group Policy Drive Mapping
 A Group Policy Object (`GPO_Map_Finance_Drive`) is linked to deploy a secure SMB network share (`\\FileServer\FinanceData`) targeting specific department users automatically upon authentication.
 
-> **[PLACE SCREENSHOT HERE: Group Policy Management Editor showing the configured Drive Map preference item]**
-> *Filename recommendation: `images/07-gpo-drive-map.png`*
+![Driver map GPO](images/07-gpo-drive-map.PNG)
 
 ---
 
