@@ -63,7 +63,7 @@ Routing and Remote Access Services (RRAS) are deployed on the router VM to bridg
 #### DHCP Scopes Configuration
 4 distinct scopes are engineered inside the DHCP Manager matching our design.
 
-![DHCP Scopes](images/04-dhcp-scopes.png)
+![DHCP Scopes](images/images04-dhcp-scopes.PNG)
 
 ---
 
