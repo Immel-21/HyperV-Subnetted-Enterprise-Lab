@@ -111,8 +111,7 @@ To prevent potential lateral threat movements, an active Inbound Filter rule is 
 ### 1. Verification of DHCP Scope Distribution
 Booting a client inside the Staff segment (`VLAN 10`) dynamically returns an address matching the initial IP planning phase:
 
-> **[PLACE SCREENSHOT HERE: Client command prompt showing successful 'ipconfig /all' output from the Staff subnet]**
-> *Filename recommendation: `images/09-client-ipconfig.png`*
+![Client test](images/images09-client-ipconfig.PNG)
 
 ### 2. Network Isolation Verification
 Simulating an adversarial switch to the Guest zone (`VLAN 40`) results in immediate connection degradation when trying to touch corporate assets, confirming the functionality of the edge ACL filter rules:
