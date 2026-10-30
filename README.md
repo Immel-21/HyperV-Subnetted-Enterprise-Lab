@@ -43,8 +43,7 @@ The Router VM remains a standalone workgroup machine acting as a Multi-VLAN Defa
 * **VLAN40_Guest:** Static `192.168.1.193` (VLAN ID 40)
 * **WAN_Internet:** DHCP (Connected directly to `Internet-External-Switch`)
 
-> **[PLACE SCREENSHOT HERE: Hyper-V settings page for Router-VM showing all 5 adapters]**
-> *Filename recommendation: `images/02-router-adapters.png`*
+![Virtual Switch](images/images02-router-adapters.png)
 
 #### NAT & Routing Configuration:
 Routing and Remote Access Services (RRAS) are deployed on the router VM to bridge internal client requests to the WAN adapter via Network Address Translation.
