@@ -85,8 +85,7 @@ An enterprise File Server and client workstations are introduced into the enviro
 2. DNS properties are inherited via DHCP, allowing client endpoints to resolve the Active Directory domain root.
 3. Computer objects successfully register within the Active Directory schema across the router.
 
-> **[PLACE SCREENSHOT HERE: Active Directory Users and Computers (ADUC) showing joined Client and File Server objects]**
-> *Filename recommendation: `images/06-aduc-joined.png`*
+![Domain joined](images/images06-aduc-joined.PNG)
 
 #### Group Policy Drive Mapping
 A Group Policy Object (`GPO_Map_Finance_Drive`) is linked to deploy a secure SMB network share (`\\FileServer\FinanceData`) targeting specific department users automatically upon authentication.
