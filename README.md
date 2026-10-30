@@ -48,8 +48,7 @@ The Router VM remains a standalone workgroup machine acting as a Multi-VLAN Defa
 #### NAT & Routing Configuration:
 Routing and Remote Access Services (RRAS) are deployed on the router VM to bridge internal client requests to the WAN adapter via Network Address Translation.
 
-> **[PLACE SCREENSHOT HERE: RRAS Management Console showing the NAT routing table]**
-> *Filename recommendation: `images/03-rras-nat.png`*
+(images/images03-rras-nat.PNG)
 
 ---
 
