@@ -29,7 +29,7 @@ To replicate enterprise switching, we use a single internal virtual switch paire
 1. **Corporate-V-Switch:** Set up as an **Internal** virtual switch.
 2. **Internet-External-Switch:** Set up as an **External** virtual switch bridged to the host system's physical NIC.
 
-![Virtual Switches](images/HyperV/02-default-and-private-Switch.PNG)
+![Virtual Switches](images/image01-Virtual-switchespng.png)
 
 ---
 
