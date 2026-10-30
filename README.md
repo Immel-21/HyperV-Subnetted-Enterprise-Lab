@@ -114,10 +114,9 @@ Booting a client inside the Staff segment (`VLAN 10`) dynamically returns an add
 ![Client test](images/images09-client-ipconfig.PNG)
 
 ### 2. Network Isolation Verification
-Simulating an adversarial switch to the Guest zone (`VLAN 40`) results in immediate connection degradation when trying to touch corporate assets, confirming the functionality of the edge ACL filter rules:
+To validate our zero-trust security boundaries, an adversarial client switch to the Guest zone (VLAN 40) was simulated. Testing confirmed that while public routing remains operational, the custom inbound Access Control List (ACL) filter successfully blocks all cross-traffic originating from the VLAN 40 Guest subnet attempting to access the sensitive VLAN 20 Finance subnet.
 
-* **Ping to External Web (`google.com`):** **SUCCESSFUL** (via NAT)
-* **Ping to Internal Server (`192.168.1.66`):** **TIMED OUT / DROPPED** (via Inbound ACL Rule)
+* **Ping to External Internet (8.8.8.8):** **SUCCESSFUL** (Verifies NAT transit via the edge gateway is fully functional).
+* **Ping to Finance Gateway/Server (192.168.1.65):** **TIMED OUT / DROPPED** (Verifies the inbound filter is actively intercepting and dropping traffic at the interface boundary).
 
-> **[PLACE SCREENSHOT HERE: Split terminal prompt on client showing a successful internet ping next to a blocked internal server ping]**
-> *Filename recommendation: `images/10-isolation-test.png`*
+![DHCP Scopes](images/images10-isolation-test.PNG)
