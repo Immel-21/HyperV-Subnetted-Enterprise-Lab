@@ -102,8 +102,7 @@ To prevent potential lateral threat movements, an active Inbound Filter rule is 
 * **Destination Address Pattern:** `192.168.1.64 / 255.255.255.192`
 * **Action:** **DROP** all matching packets.
 
-> **[PLACE SCREENSHOT HERE: RRAS Inbound Filters panel on the Guest interface displaying the drop rule]**
-> *Filename recommendation: `images/08-firewall-rule.png`*
+![Firewall rule](images/images08-firewall-rule.PNG)
 
 ---
 
